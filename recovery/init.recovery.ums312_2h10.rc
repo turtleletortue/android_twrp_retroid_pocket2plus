@@ -1,0 +1,5 @@
+on init
+    setprop sys.usb.configfs 1
+    setprop sys.usb.mode normal
+    setprop sys.usb.controller "musb-hdrc.0.auto"
+    write /sys/class/android_usb/android0/f_mass_storage/board_support_luns 1
