@@ -67,7 +67,6 @@ TARGET_SYSTEM_PROP += device/retroid/pocket2plus/system.prop
 TW_BRIGHTNESS_PATH := /sys/class/backlight/sprd_backlight/brightness
 
 # Recovery fstab
-TARGET_RECOVERY_FSTAB := device/retroid/pocket2plus/recovery/recovery.fstab
 BOARD_SUPPRESS_EMMC_WIPE := true
 
 # Graphics

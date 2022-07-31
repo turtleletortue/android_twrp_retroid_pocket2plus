@@ -6,11 +6,8 @@ $(shell mkdir -p out/target/product/pocket2plus/)
 $(shell touch out/target/product/pocket2plus/dtb.img)
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/recovery.fstab:root/etc/recovery.fstab \
-    $(LOCAL_PATH)/recovery/recovery.tmpfsdata.fstab:root/etc/recovery.tmpfsdata.fstab \
     $(LOCAL_PATH)/recovery/init.recovery.ums312_2h10.rc:root/init.recovery.ums312_2h10.rc \
     $(LOCAL_PATH)/recovery/ueventd.ums312_2h10.rc:root/ueventd.ums312_2h10.rc \
-    $(LOCAL_PATH)/recovery/fstab.ums312_2h10:root/fstab.ums312_2h10
 
 # Vendor default.prop
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

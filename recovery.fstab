@@ -1,0 +1,18 @@
+# mount point	fstype	device					                                         device2				flags
+/boot           emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/boot
+/dtb            emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/dtb                            flags=backup=1;display="Dtb";flashimg=1
+/dtbo           emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/dtbo                           flags=backup=1;display="Dtbo";flashimg=1
+/cache          ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/cache
+/data           f2fs    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/userdata                           flags=encryptable=footer
+/product        ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/product                        flags=backup=1;wipeingui
+/product_image  emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/product                        flags=backup=1
+/recovery       emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/recovery
+/system_root    ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system
+/system_image   emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system
+/vendor         ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/vendor                         flags=backup=1;wipeingui
+/vendor_image   emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/vendor                         flags=backup=1
+/misc           emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/misc
+/persist        emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/persist 
+
+# Removable storage
+/external_sd    auto    /dev/block/mmcblk1p1                                             /dev/block/mmcblk1     flags=display="External SD Card";storage;wipeingui;removable
