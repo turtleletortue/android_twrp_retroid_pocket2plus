@@ -80,7 +80,6 @@ TARGET_SCREEN_WIDTH := 640
 
 # MTP
 TW_HAS_MTP := true
-TW_EXCLUDE_MTP := false
 TW_MTP_DEVICE := /dev/mtp_usb
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.gs6/lun.%d/file
 RECOVERY_VARIANT := twrp
