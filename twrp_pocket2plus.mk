@@ -9,4 +9,4 @@ PRODUCT_DEVICE := pocket2plus
 PRODUCT_NAME := twrp_pocket2plus
 PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Retroid
-PRODUCT_MODEL := Retroid_Pocket_2_Plus
+PRODUCT_MODEL := Retroid Pocket 2 Plus
