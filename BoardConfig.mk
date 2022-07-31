@@ -99,3 +99,6 @@ BOARD_VNDK_VERSION := current
 # CPU Temp
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 
+# Vibration
+TW_NO_HAPTICS := true
+
