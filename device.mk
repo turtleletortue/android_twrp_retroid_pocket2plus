@@ -2,6 +2,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
+$(shell mkdir -p out/target/product/pocket2plus/)
+$(shell touch out/target/product/pocket2plus/dtb.img)
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/recovery.fstab:root/etc/recovery.fstab \
     $(LOCAL_PATH)/recovery/recovery.tmpfsdata.fstab:root/etc/recovery.tmpfsdata.fstab \
